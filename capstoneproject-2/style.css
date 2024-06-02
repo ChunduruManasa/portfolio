@@ -1,0 +1,70 @@
+.color{
+    background-color:#EFEFEF;
+        font-family: "Cormorant Garamond", serif;
+        font-weight: 700;
+        font-style: normal;
+        
+}
+
+#home{
+    background-image:url(./images/1.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height:90vh;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+.container{
+    font-family: "Cormorant", serif;
+    font-optical-sizing: auto;
+    font-weight:bolder;
+    font-style: normal;
+    text-align: center;
+    margin:auto;
+    padding-top: 18%;
+    color: #227C9D;
+}
+#name{
+    font-size: 6rem;
+}
+#subtitle{
+    font-size: large;
+    font-family:cursive;
+    font-weight: lighter;
+    padding-top: 50PX;
+}
+.manasa{
+    width: 240px;
+    height: 250px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+.container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    line-height: 2;
+    height: 100vh;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 50px;
+    padding-right: 50px;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+#hello{
+    color:#227C9D ;
+    padding-bottom: 10px;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 4rem;
+    text-align: center;
+    font-weight: bolder;
+}
+.buttons{
+    margin-bottom: 20px;
+}

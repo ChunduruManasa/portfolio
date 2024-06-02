@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project</title>
+  <style>
+    /* 
+    Write your CSS here 
+    Gap Colour: #000
+    White: #F0F1EC
+    Red: #E72F24
+    Black: #232629
+    Blue: #004592
+    Yellow: #F9D01E
+    */
+    body{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .container{
+      display: grid;
+      background-color: #232629;
+      height: 748px;
+      width: 748px;
+      grid-template-columns: 320px 198px 150px 50px;
+      grid-template-rows: 414px 130px 155px 20px;
+      gap: 9px;
+    }
+    .item{
+      background-color: beige;
+    }
+    .one{
+      background-color: red;
+      grid-area: 1/1/2/2;
+    }
+    .two{
+      background-color: #F0F1EC;
+      grid-area: 1/2/2/5;
+        }
+    .three{
+      background-color: #F0F1EC;
+      grid-area: 2/1/4/2;
+    }
+    .four{
+      background-color: #F0F1EC;
+      grid-area: 2/2/4/4;
+    }
+    .five{
+      background-color: #004592 ;
+      border-bottom: 10px solid black;
+    }
+    .eight{
+      background-color: #F9D01E ;
+
+    }
+    .six{
+      grid-area:3/4/5/5;
+      background-color: #F0F1EC;
+    }
+    .nine{
+      background-color: black;
+    }
+
+  </style>
+</head>
+
+<body>
+  <div class="container"> 
+    <div class="item one"></div>
+    <div class="item two"></div>
+    <div class="item three"></div>
+    <div class="item four"></div>
+    <div class="item five"></div>
+    <div class="item six"></div>
+    <div class="item seven"></div>
+    <div class="item eight"></div>
+    <div class="item nine"></div>
+</div>
+
+
+</body>
+
+</html>
